@@ -1,6 +1,6 @@
 %define 	modulename pam_uid
 Summary:	PAM module to authenticate users by their UID
-Summary(pl):	modu³ PAM uwierzytelniaj±cy u¿ytkowników na podstawie UID
+Summary(pl):	Modu³ PAM uwierzytelniaj±cy u¿ytkowników na podstawie UID
 Name:		pam-%{modulename}
 Version:	0.1
 Release:	1
@@ -31,7 +31,7 @@ u¿ytkowników na podstawie numeru UID.
 rm -rf $RPM_BUILD_ROOT
 
 install -D pam_uid.so.1 $RPM_BUILD_ROOT/%{_lib}/security/pam_uid.so
-install -D pam_uid.5 $RPM_BUILD_ROOT/%{_mandir}/man5/pam_uid.5
+install -D pam_uid.5 $RPM_BUILD_ROOT%{_mandir}/man5/pam_uid.5
 
 %clean
 rm -rf $RPM_BUILD_ROOT
