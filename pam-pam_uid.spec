@@ -1,6 +1,6 @@
 %define 	modulename pam_uid
 Summary:	PAM module to authenticate users by their UID
-Summary(pl):	Modu≥ PAM uwierzytelniaj±cy uøytkownikÛw na podstawie UID
+Summary(pl.UTF-8):   Modu≈Ç PAM uwierzytelniajƒÖcy u≈ºytkownik√≥w na podstawie UID
 Name:		pam-%{modulename}
 Version:	0.1
 Release:	1
@@ -16,9 +16,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 The pam_uid module provides UID-based authentication to PAM-aware
 applications.
 
-%description -l pl
-Modu≥ pam_uid zapewnia aplikacjom korzystaj±cym z PAM uwierzytelnianie
-uøytkownikÛw na podstawie numeru UID.
+%description -l pl.UTF-8
+Modu≈Ç pam_uid zapewnia aplikacjom korzystajƒÖcym z PAM uwierzytelnianie
+u≈ºytkownik√≥w na podstawie numeru UID.
 
 %prep
 %setup -q -n %{modulename}-%{version}
