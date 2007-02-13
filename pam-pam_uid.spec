@@ -1,6 +1,6 @@
 %define 	modulename pam_uid
 Summary:	PAM module to authenticate users by their UID
-Summary(pl.UTF-8):   Moduł PAM uwierzytelniający użytkowników na podstawie UID
+Summary(pl.UTF-8):	Moduł PAM uwierzytelniający użytkowników na podstawie UID
 Name:		pam-%{modulename}
 Version:	0.1
 Release:	1
